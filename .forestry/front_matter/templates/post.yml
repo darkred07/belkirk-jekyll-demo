@@ -39,14 +39,3 @@ fields:
   type: text
   hidden: true
   default: post
-- type: select
-  name: categories
-  config:
-    source:
-      type: documents
-    required: true
-  label: Categories
-  description: Cats
-- type: tag_list
-  name: categories
-  label: categories
